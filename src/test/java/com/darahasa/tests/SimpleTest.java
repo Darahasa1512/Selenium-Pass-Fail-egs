@@ -10,11 +10,11 @@ public class SimpleTest {
         System.out.println("TEST EXECUTED - PASS");
         Assert.assertEquals(2 + 2, 4);
     }
-    //@Test
-    //public void thisTestShouldFail() {
-        //System.out.println("TEST EXECUTED - FAIL");
-        //Assert.assertEquals(2 + 2, 5);
-    //}
+    @Test
+    public void thisTestShouldFail() {
+        System.out.println("TEST EXECUTED - FAIL");
+        Assert.assertEquals(2 + 2, 5);
+    }
 
     
 }
