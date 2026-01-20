@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.darahasa.tests.SimpleTest">
+      <class name="com.darahasa.tests.GoogleSearchTest">
         <methods>
-          <include name="thisTestShouldFail"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyGoogleSearchWorks"/>
         </methods>
-      </class> <!-- com.darahasa.tests.SimpleTest -->
+      </class> <!-- com.darahasa.tests.GoogleSearchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
